@@ -1,0 +1,150 @@
+@media (max-width: 1285px){
+	.wrap{
+		width: 90%;
+		margin: 0 auto;
+	}
+	#banner h1{
+		font-size: 40px;
+		margin-top: 30px;
+	}
+	.card{
+		width: 16%;
+		margin: 1.5%;
+	}
+	.card .description{
+		font-size: 12px;
+	}
+	.card .icon{
+		font-size: 45px;
+	}
+	.card:hover .icon{
+		font-size: 65px;
+	}
+	#cards{
+		margin-left: 5%;
+	}
+	#articles{
+		width: 55%;
+		margin-left: 7%;
+	}
+	#articles article{
+		width: 90%;
+	}
+	#footer div > div{
+		width: 26%;
+	}
+	#info #browsers img {
+	    width: 13%;
+	}
+	#footer h5{
+		font-size: 30px;
+	}
+}
+@media (max-width: 1214px){
+	#footer div > div{
+		width: 24%;
+	}
+
+}
+
+@media(max-width: 1061px){
+	#articles{
+		width: 50%;
+		margin-left: 7%;
+	}
+}
+
+@media(max-width: 1000px){
+	.card{
+		height: auto;
+	}
+	.card .category{
+		font-size: 15px;
+	}
+	.card .description{
+		display: none; 
+	}
+	#footer h5{
+		font-size: 25px;
+	}
+}
+@media(max-width: 954px){
+	#footer .wrap > div{
+		margin: 40px 4.6%;
+	}
+	#footer #info #html img{
+		width: 215px;
+	}
+}
+@media(max-width: 922px){
+	#lateral{
+		width: 210px;
+	}
+	#lateral input[type="text"] {
+		width: 70%;
+	}
+	#login input[type="email"], #login input[type="password"]{
+		width: 72%;
+	}
+	#login input[type="submit"], #login input[type="reset"] {
+		height: 32px;
+		font-size: 12px;
+		margin-top: 15px;
+		margin-bottom: 0;
+		margin-left: 45px;
+	}
+	#login input[type="reset"]{
+		margin-bottom: 15px;
+
+	}
+	#lateral #login{
+		height: 255px;
+	}
+	.overlay{
+		width: 90px;
+		margin-left: 70px;
+	}
+	#gym, #coca {
+		width: 75px;
+	}
+	#gym{
+		width: 90px;
+		margin-left: 2px;
+	}
+	#ltCe{
+		margin-top: 35px;
+	}
+	#articles{
+		width: 55%;
+	}
+	#articles .data {
+		height: 20px;
+		line-height: 20px;
+		margin: -10px;
+		padding: 4px;
+		font-size: 9px;
+		text-align: center;
+		border-radius: 0 0 0 5px;
+	}
+	#banner h1{
+		width: 100%;
+	}
+}
+
+@media(max-width: 878px){
+	#menu{
+		display: block;
+		width: 100%;
+		float: none;
+	}
+}
+@media(max-width: 792px){
+	#articles{
+		opacity: 0;
+		height: 0;
+	}
+
+}
+
+@media(max-width: 754px){
+}
